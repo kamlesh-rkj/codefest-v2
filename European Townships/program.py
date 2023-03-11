@@ -1,6 +1,6 @@
 with open("input.txt",'r') as file:
     lst=file.read().splitlines()
-    testcase=int(lst[0])
+    test=int(lst[0])
     index=1
     while(index<len(lst)):
         house=int(lst[index])
